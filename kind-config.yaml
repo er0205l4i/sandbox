@@ -4,7 +4,4 @@ name: sandbox
 nodes:
 - role: control-plane
 - role: worker
-  extraPortMappings:
-  - containerPort: 30080
-    hostPort: 8080
-    protocol: TCP
+- role: worker
